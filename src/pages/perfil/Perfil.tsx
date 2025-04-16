@@ -26,7 +26,8 @@ function Perfil() {
 
             <img 
                 className='rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10' 
-                src={usuario.foto} alt={`Foto de perfil de ${usuario.nome}`} />
+                src={usuario.foto || 'https://ik.imagekit.io/2zvbvzaqt/vecteezy_user-icon-in-trendy-flat-style-isolated-on-grey-background_5005837.jpg?updatedAt=1744726063905'}
+					alt={`Foto de perfil de ${usuario.nome}`} />
 
             <div 
                 className="relative mt-[-6rem] h-72 flex flex-col 
